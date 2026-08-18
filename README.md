@@ -3,7 +3,9 @@
 An educational/research Python project demonstrating post-quantum cryptography
 (PQC), classical cryptography, and hybrid classical+PQC designs, built around
 the NIST-standardized **ML-KEM** (FIPS 203) and **ML-DSA** (FIPS 204)
-algorithms.
+algorithms. 
+
+Part of my Underneath the Magic Project . 
 
 > **This is not production cryptographic software.** See
 > [Limitations](#limitations) and [`docs/security_analysis.md`](docs/security_analysis.md)

@@ -1,4 +1,4 @@
-# Quantum-Resistant Encryption Implementation
+# Underneath the Magic : An-Implementation of Quantum Resistant Crypto
 
 An educational/research Python project demonstrating post-quantum cryptography
 (PQC), classical cryptography, and hybrid classical+PQC designs, built around

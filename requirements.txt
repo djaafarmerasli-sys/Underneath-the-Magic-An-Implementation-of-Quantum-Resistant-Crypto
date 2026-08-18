@@ -1,0 +1,12 @@
+# Post-quantum key encapsulation: ML-KEM (NIST FIPS 203).
+# Pure-Python implementation -- no C compiler or native build needed.
+kyber-py
+
+# Post-quantum digital signatures: ML-DSA (NIST FIPS 204).
+# Same author/conventions as kyber-py; also pure-Python, no native build.
+dilithium-py
+
+# Classical primitives (X25519, Ed25519, AES-256-GCM, HKDF, scrypt) and the
+# vetted building blocks the project's wrappers isolate behind pqcrypto's own
+# API. Industry-standard, actively maintained (pyca/cryptography).
+cryptography

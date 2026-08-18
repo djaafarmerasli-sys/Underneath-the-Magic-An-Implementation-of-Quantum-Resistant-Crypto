@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode/build artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Never commit real key material generated while experimenting locally.
+*.pem
+*.key

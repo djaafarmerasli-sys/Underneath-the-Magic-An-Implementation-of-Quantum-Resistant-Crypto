@@ -1,0 +1,160 @@
+{
+  "benchmark": "benchmark_kem",
+  "environment": {
+    "cryptography_version": "50.0.0",
+    "dilithium_py_version": "unknown",
+    "kyber_py_version": "unknown",
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "python_implementation": "CPython",
+    "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "generated_at": "2026-08-18T15:44:23+0200",
+  "results": [
+    {
+      "extra": {
+        "ciphertext_size_bytes": 768,
+        "public_key_size_bytes": 800,
+        "secret_key_size_bytes": 1632,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 50,
+      "max_seconds": 0.003622299998824019,
+      "mean_seconds": 0.002211675999642466,
+      "median_seconds": 0.0021450499989441596,
+      "min_seconds": 0.0021082999992358964,
+      "operation": "ML-KEM-512.generate_keypair",
+      "ops_per_second": 452.1457935799174,
+      "stdev_seconds": 0.0002896038642761802
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 768,
+        "public_key_size_bytes": 800,
+        "secret_key_size_bytes": 1632,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.005050600000686245,
+      "mean_seconds": 0.0033332339999469695,
+      "median_seconds": 0.0032267000005958835,
+      "min_seconds": 0.003120199999102624,
+      "operation": "ML-KEM-512.encapsulate",
+      "ops_per_second": 300.00894027119296,
+      "stdev_seconds": 0.00028708452235978656
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 768,
+        "public_key_size_bytes": 800,
+        "secret_key_size_bytes": 1632,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.006262800001422875,
+      "mean_seconds": 0.004753019000054337,
+      "median_seconds": 0.004553650001980714,
+      "min_seconds": 0.004420799999934388,
+      "operation": "ML-KEM-512.decapsulate",
+      "ops_per_second": 210.39259468320404,
+      "stdev_seconds": 0.0004201789225264045
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1088,
+        "public_key_size_bytes": 1184,
+        "secret_key_size_bytes": 2400,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 50,
+      "max_seconds": 0.005017799998313421,
+      "mean_seconds": 0.0039099079999868995,
+      "median_seconds": 0.003797850000410108,
+      "min_seconds": 0.0036829000018769875,
+      "operation": "ML-KEM-768.generate_keypair",
+      "ops_per_second": 255.76049359814874,
+      "stdev_seconds": 0.00026308522369532315
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1088,
+        "public_key_size_bytes": 1184,
+        "secret_key_size_bytes": 2400,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.00568570000177715,
+      "mean_seconds": 0.005013824999841745,
+      "median_seconds": 0.0049850999985210365,
+      "min_seconds": 0.004886300001089694,
+      "operation": "ML-KEM-768.encapsulate",
+      "ops_per_second": 199.44852483514356,
+      "stdev_seconds": 0.00012268240314011178
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1088,
+        "public_key_size_bytes": 1184,
+        "secret_key_size_bytes": 2400,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.00895229999878211,
+      "mean_seconds": 0.007114758000279835,
+      "median_seconds": 0.0069839000007050345,
+      "min_seconds": 0.006818300000304589,
+      "operation": "ML-KEM-768.decapsulate",
+      "ops_per_second": 140.55291830877007,
+      "stdev_seconds": 0.00038220675850954603
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1568,
+        "public_key_size_bytes": 1568,
+        "secret_key_size_bytes": 3168,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 50,
+      "max_seconds": 0.007213299999420997,
+      "mean_seconds": 0.005770212000206811,
+      "median_seconds": 0.005669049998687115,
+      "min_seconds": 0.005543200000829529,
+      "operation": "ML-KEM-1024.generate_keypair",
+      "ops_per_second": 173.30385780698504,
+      "stdev_seconds": 0.0003493347772153108
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1568,
+        "public_key_size_bytes": 1568,
+        "secret_key_size_bytes": 3168,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.008831999999529216,
+      "mean_seconds": 0.007280111000036413,
+      "median_seconds": 0.007168099999034894,
+      "min_seconds": 0.0069993000033719,
+      "operation": "ML-KEM-1024.encapsulate",
+      "ops_per_second": 137.36054299103384,
+      "stdev_seconds": 0.0003139531243084703
+    },
+    {
+      "extra": {
+        "ciphertext_size_bytes": 1568,
+        "public_key_size_bytes": 1568,
+        "secret_key_size_bytes": 3168,
+        "shared_secret_size_bytes": 32
+      },
+      "iterations": 100,
+      "max_seconds": 0.0118387000002258,
+      "mean_seconds": 0.00961320499987778,
+      "median_seconds": 0.009408850000909297,
+      "min_seconds": 0.009232000000338303,
+      "operation": "ML-KEM-1024.decapsulate",
+      "ops_per_second": 104.0235800664517,
+      "stdev_seconds": 0.00045357349724716144
+    }
+  ]
+}

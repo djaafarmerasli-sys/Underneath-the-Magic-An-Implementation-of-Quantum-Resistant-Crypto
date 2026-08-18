@@ -1,0 +1,136 @@
+{
+  "benchmark": "benchmark_encryption",
+  "environment": {
+    "cryptography_version": "50.0.0",
+    "dilithium_py_version": "unknown",
+    "kyber_py_version": "unknown",
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "python_implementation": "CPython",
+    "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "generated_at": "2026-08-18T15:45:20+0200",
+  "results": [
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 1024,
+        "throughput_mib_per_second": 167.578
+      },
+      "iterations": 200,
+      "max_seconds": 8.39999847812578e-06,
+      "mean_seconds": 5.827500099258032e-06,
+      "median_seconds": 5.699999746866524e-06,
+      "min_seconds": 5.599998985417187e-06,
+      "operation": "encrypt.1KiB",
+      "ops_per_second": 171600.16867735822,
+      "stdev_seconds": 4.3270050655584127e-07
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 1024,
+        "throughput_mib_per_second": 187.602
+      },
+      "iterations": 200,
+      "max_seconds": 1.04000027931761e-05,
+      "mean_seconds": 5.2055000560358165e-06,
+      "median_seconds": 5.099998816149309e-06,
+      "min_seconds": 4.999998054699972e-06,
+      "operation": "decrypt.1KiB",
+      "ops_per_second": 192104.5027826851,
+      "stdev_seconds": 5.638345064886741e-07
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 1048576,
+        "throughput_mib_per_second": 2015.33
+      },
+      "iterations": 30,
+      "max_seconds": 0.0005757999970228411,
+      "mean_seconds": 0.0004961966670331701,
+      "median_seconds": 0.00048720000086177606,
+      "min_seconds": 0.0004515000000537839,
+      "operation": "encrypt.1MiB",
+      "ops_per_second": 2015.3299416119442,
+      "stdev_seconds": 3.2719112681776314e-05
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 1048576,
+        "throughput_mib_per_second": 2115.88
+      },
+      "iterations": 30,
+      "max_seconds": 0.0005576000003202353,
+      "mean_seconds": 0.0004726166665932396,
+      "median_seconds": 0.0004700500012404518,
+      "min_seconds": 0.000442000000475673,
+      "operation": "decrypt.1MiB",
+      "ops_per_second": 2115.8796773044314,
+      "stdev_seconds": 2.318275353160429e-05
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 10485760,
+        "throughput_mib_per_second": 1861.296
+      },
+      "iterations": 10,
+      "max_seconds": 0.005487000002176501,
+      "mean_seconds": 0.005372599999464001,
+      "median_seconds": 0.005371949999243952,
+      "min_seconds": 0.0052896999986842275,
+      "operation": "encrypt.10MiB",
+      "ops_per_second": 186.12962068640238,
+      "stdev_seconds": 6.862830633601742e-05
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 10485760,
+        "throughput_mib_per_second": 1735.304
+      },
+      "iterations": 10,
+      "max_seconds": 0.006167499999719439,
+      "mean_seconds": 0.005762680000043474,
+      "median_seconds": 0.0057642000010673655,
+      "min_seconds": 0.0054889999992155936,
+      "operation": "decrypt.10MiB",
+      "ops_per_second": 173.5303712842733,
+      "stdev_seconds": 0.0002046323034992449
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 104857600,
+        "throughput_mib_per_second": 2006.123
+      },
+      "iterations": 3,
+      "max_seconds": 0.05266499999925145,
+      "mean_seconds": 0.04984740000024127,
+      "median_seconds": 0.04857070000070962,
+      "min_seconds": 0.04830650000076275,
+      "operation": "encrypt.100MiB",
+      "ops_per_second": 20.06122686429302,
+      "stdev_seconds": 0.002443686298568125
+    },
+    {
+      "extra": {
+        "package_overhead_bytes": 28,
+        "plaintext_size_bytes": 104857600,
+        "throughput_mib_per_second": 1923.095
+      },
+      "iterations": 3,
+      "max_seconds": 0.05251919999864185,
+      "mean_seconds": 0.05199949999951059,
+      "median_seconds": 0.05194169999958831,
+      "min_seconds": 0.05153760000030161,
+      "operation": "decrypt.100MiB",
+      "ops_per_second": 19.23095414397084,
+      "stdev_seconds": 0.0004933459933744808
+    }
+  ]
+}

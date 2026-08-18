@@ -1,0 +1,208 @@
+{
+  "benchmark": "benchmark_signatures",
+  "environment": {
+    "cryptography_version": "50.0.0",
+    "dilithium_py_version": "unknown",
+    "kyber_py_version": "unknown",
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "python_implementation": "CPython",
+    "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "generated_at": "2026-08-18T15:44:51+0200",
+  "results": [
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1312,
+        "secret_key_size_bytes": 2560,
+        "signature_size_bytes": 2420
+      },
+      "iterations": 30,
+      "max_seconds": 0.008379300001251977,
+      "mean_seconds": 0.006973680000010063,
+      "median_seconds": 0.006828249997852254,
+      "min_seconds": 0.006732199999532895,
+      "operation": "ML-DSA-44.generate_keypair",
+      "ops_per_second": 143.39631299379337,
+      "stdev_seconds": 0.00034433001492465245
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1312,
+        "secret_key_size_bytes": 2560,
+        "signature_size_bytes": 2420
+      },
+      "iterations": 50,
+      "max_seconds": 0.1484213000003365,
+      "mean_seconds": 0.038938930000003896,
+      "median_seconds": 0.03139664999980596,
+      "min_seconds": 0.017313199998170603,
+      "operation": "ML-DSA-44.sign",
+      "ops_per_second": 25.68123982862138,
+      "stdev_seconds": 0.023521301050641895
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1312,
+        "secret_key_size_bytes": 2560,
+        "signature_size_bytes": 2420
+      },
+      "iterations": 50,
+      "max_seconds": 0.0109651999991911,
+      "mean_seconds": 0.008655371999921044,
+      "median_seconds": 0.008362649999980931,
+      "min_seconds": 0.008133499999530613,
+      "operation": "ML-DSA-44.verify",
+      "ops_per_second": 115.53518439289752,
+      "stdev_seconds": 0.0006389087595766493
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1952,
+        "secret_key_size_bytes": 4032,
+        "signature_size_bytes": 3309
+      },
+      "iterations": 30,
+      "max_seconds": 0.015181200000370154,
+      "mean_seconds": 0.012310423333838116,
+      "median_seconds": 0.012042399999700137,
+      "min_seconds": 0.011499399999593152,
+      "operation": "ML-DSA-65.generate_keypair",
+      "ops_per_second": 81.23197495989135,
+      "stdev_seconds": 0.0008433479571587382
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1952,
+        "secret_key_size_bytes": 4032,
+        "signature_size_bytes": 3309
+      },
+      "iterations": 50,
+      "max_seconds": 0.2900289999997767,
+      "mean_seconds": 0.07641087599979074,
+      "median_seconds": 0.06392444999983127,
+      "min_seconds": 0.025811600000452017,
+      "operation": "ML-DSA-65.sign",
+      "ops_per_second": 13.087142202148534,
+      "stdev_seconds": 0.04859345110076643
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 1952,
+        "secret_key_size_bytes": 4032,
+        "signature_size_bytes": 3309
+      },
+      "iterations": 50,
+      "max_seconds": 0.01623209999888786,
+      "mean_seconds": 0.013802809999906457,
+      "median_seconds": 0.01341139999931329,
+      "min_seconds": 0.012857999998232117,
+      "operation": "ML-DSA-65.verify",
+      "ops_per_second": 72.44901581683564,
+      "stdev_seconds": 0.0009404219176942393
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 2592,
+        "secret_key_size_bytes": 4896,
+        "signature_size_bytes": 4627
+      },
+      "iterations": 30,
+      "max_seconds": 0.020743200002470985,
+      "mean_seconds": 0.018662489999769605,
+      "median_seconds": 0.01851505000195175,
+      "min_seconds": 0.017646000000240747,
+      "operation": "ML-DSA-87.generate_keypair",
+      "ops_per_second": 53.583417861836516,
+      "stdev_seconds": 0.0007545178601588264
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 2592,
+        "secret_key_size_bytes": 4896,
+        "signature_size_bytes": 4627
+      },
+      "iterations": 50,
+      "max_seconds": 0.3070359000012104,
+      "mean_seconds": 0.08750710599975718,
+      "median_seconds": 0.07013644999824464,
+      "min_seconds": 0.038039999999455176,
+      "operation": "ML-DSA-87.sign",
+      "ops_per_second": 11.427643373359587,
+      "stdev_seconds": 0.06321872112800692
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 2592,
+        "secret_key_size_bytes": 4896,
+        "signature_size_bytes": 4627
+      },
+      "iterations": 50,
+      "max_seconds": 0.02389219999895431,
+      "mean_seconds": 0.021102459999747226,
+      "median_seconds": 0.02083554999990156,
+      "min_seconds": 0.020133499998337356,
+      "operation": "ML-DSA-87.verify",
+      "ops_per_second": 47.387840091249004,
+      "stdev_seconds": 0.0009402103913175537
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 32,
+        "secret_key_size_bytes": 32,
+        "signature_size_bytes": 64
+      },
+      "iterations": 30,
+      "max_seconds": 5.729999975301325e-05,
+      "mean_seconds": 4.941333342382374e-05,
+      "median_seconds": 5.070000042906031e-05,
+      "min_seconds": 4.3000000005122274e-05,
+      "operation": "Ed25519.generate_keypair",
+      "ops_per_second": 20237.452742216097,
+      "stdev_seconds": 3.8279130284395615e-06
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 32,
+        "secret_key_size_bytes": 32,
+        "signature_size_bytes": 64
+      },
+      "iterations": 50,
+      "max_seconds": 7.699999696342275e-05,
+      "mean_seconds": 7.334799978707451e-05,
+      "median_seconds": 7.300000106624793e-05,
+      "min_seconds": 7.230000119307078e-05,
+      "operation": "Ed25519.sign",
+      "ops_per_second": 13633.63694855959,
+      "stdev_seconds": 9.609178119759201e-07
+    },
+    {
+      "extra": {
+        "message_size_bytes": 440,
+        "public_key_size_bytes": 32,
+        "secret_key_size_bytes": 32,
+        "signature_size_bytes": 64
+      },
+      "iterations": 50,
+      "max_seconds": 0.0004888000003120396,
+      "mean_seconds": 0.00016614399981335737,
+      "median_seconds": 0.00011339999946358148,
+      "min_seconds": 0.00010929999916697852,
+      "operation": "Ed25519.verify",
+      "ops_per_second": 6018.875199365482,
+      "stdev_seconds": 8.567682787494187e-05
+    }
+  ]
+}

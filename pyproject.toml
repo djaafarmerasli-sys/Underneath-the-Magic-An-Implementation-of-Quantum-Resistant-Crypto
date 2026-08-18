@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqcrypto"
+version = "0.1.0"
+description = "Educational/research implementation of post-quantum (ML-KEM, ML-DSA) and hybrid classical+PQC cryptography. Not audited; not for production use."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Post-quantum key encapsulation: ML-KEM (NIST FIPS 203).
+    "kyber-py",
+    # Post-quantum digital signatures: ML-DSA (NIST FIPS 204).
+    "dilithium-py",
+    # Classical primitives (X25519, Ed25519, AES-256-GCM, HKDF, scrypt) that
+    # this project's wrappers isolate behind pqcrypto's own API.
+    "cryptography",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
